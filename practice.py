@@ -55,4 +55,34 @@ name = "Achintya Tripathi"
 age = 23
 print(f'Hi, my name is {name} and I am {age} years old') #f-strings formatting with multiple strings
 
+#Lists 
+#List are ordered sequences ta can hold a variety of object types. They use [] and commmas to separate objects in the lists. List also supports slicing and indexing.
+my_list = [1,2,3]
+my_list = ['string', 100, 200.5]
+len(my_list)
+my_list[2]
+my_list[1:]
+my_list
 
+#We can also concantenate in lists 
+mylist = ['one', 'two', 'three']
+anotherlist = ['four', 'five', 'six']
+mylist+anotherlist
+newlist = mylist + anotherlist
+newlist
+
+#We can also mutate in list
+newlist[0] = 'ONE'
+newlist
+
+#We can use append in list which helps us to add (APPEND)a item in th end of a list.
+newlist.append('seven')
+newlist
+
+#We can also remove items from the list for which we use POP method which basically pops out the item from the end of the list.
+newlist.pop()
+newlist
+
+#We can also remove the items in list from in between
+newlist.pop(0)
+newlist
