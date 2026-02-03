@@ -8,4 +8,4 @@ t
 t.count('A')
 t.count('B')
 t.index('A')
-        
+t.index('C')
