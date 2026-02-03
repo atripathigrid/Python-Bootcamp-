@@ -105,8 +105,6 @@ numlist
 #Dictionaries are unordered mappings for storing the objects. Dictionaries use key value pairing instead. 
 #This key value pair allows user to quickly grab objects without needing to know an index location. 
 #Dictionary uses urly braces and colon to signify the keys and their associated values.
-{'key1':'value1','key2:value2'}
-
 #DICTIONARIES - objects retrieved by key name. They are unordered an connot be sorted.
 #LIST - objects retrieved by location. Ordered sequence can be indexed or sliced.
 
