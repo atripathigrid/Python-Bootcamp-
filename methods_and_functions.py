@@ -104,6 +104,42 @@ def employee_check(work_hours):
 employee_check(work_hours)
 
 
+#Interactions between python Functions
+from random import shuffle
+mylist = ['','o','']
+shuffle(mylist)
+mylist
 
+def player_guess():
+    guess=''
 
+    while guess not in ['0','1','2']:
+        guess = input("Pick a number: 0,1, or 2")
 
+    return int(guess)
+
+player_guess()
+
+myindex = player_guess()
+myindex
+
+def check_guess(mylist,guess):
+    if mylist[guess] == '0':
+        print("Correct!")
+    else:
+        print("Wrong guess!")
+        print(mylist)
+
+#Intial List
+mylist = ['','o','']
+
+#Shuffle List
+from random import shuffle
+mixedup_list = shuffle(mylist)
+mylist
+
+#User Guess
+guess = player_guess()
+
+#Check Guess
+check_guess(mixedup_list,guess)
