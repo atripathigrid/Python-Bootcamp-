@@ -1,12 +1,12 @@
 #Functions #1: print Hello World W
-# Write a function called myfunc that prints the string 'Hello World'.
+# Write a function called myfunc that prints the string 'Hello World'
 def myfunc():
     print('Hello World')
 
 
 #Functions #2: print Hello Name
 #Define a function called myfunc that takes in a name, and prints 'Hello Name' NOTE: Define the function, but do not run it!
-#Also, do not use f-strings, as they are not supported in this Coding Exercise.
+#Also, do not use f-strings, as they are not supported in this Coding Exercise
 def myfunc(name):
     print('Hello {}' .format(name))
 myfunc('Name')
@@ -14,7 +14,7 @@ myfunc('Name')
 
 #Functions #3 - simple Boolean
 #Define a function called myfunc that takes in a Boolean value (True or False). If True, return 'Hello', and if False, return 'Goodbye'
-#Remember, don't run the function, simply provide the definition.
+#Remember, don't run the function, simply provide the definition
 def myfunc(a):
     if a == True:
         return 'Hello'
@@ -27,8 +27,7 @@ myfunc(False)
 #Functions #4 - using Booleans
 #Define a function called myfunc that takes three arguments, x, y and z.
 #If z is True, return x.  If z is False, return y.
-#Remember, don't run the function, simply provide the definition.
-
+#Remember, don't run the function, simply provide the definition
 def myfunc(x,y,z):
     if z == True:
         return x
@@ -40,7 +39,7 @@ myfunc('Hello','Goodbye',False)
 
 #Functions #5: simple math
 #Define a function called myfunc that takes in two arguments and returns their sum.
-#Remember, don't run the function, simply provide the definition.
+#Remember, don't run the function, simply provide the definition
 def myfunc(a,b):
     return a+b
 myfunc(10,20)
@@ -48,7 +47,7 @@ myfunc(10,20)
 
 #Functions #6: is even
 #Define a function called is_even that takes in one argument, and returns True if the passed-in value is even, False if it is not.
-#Remember, don't run the function, simply provide the definition.
+#Remember, don't run the function, simply provide the definition
 def is_even(n):
     if n%2 == 0:
         return True
