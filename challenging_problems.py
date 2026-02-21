@@ -54,8 +54,3 @@ def print_big(letter):
 print_big('a')
 print_big('c')
 print_big('d')
-
-
-
-
-
